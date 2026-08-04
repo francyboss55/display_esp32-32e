@@ -1,6 +1,6 @@
 ---INFORMAZIONI---
 per fare in modo che il codice funzioni è necessario che sulla scheda (display con esp32-32e con risoluzione 320 x 240 pixel) siano caricati tutti i file delle cartelle "driver" e "file necessari".
-nel file main.py (in file necessari) ci sono delle parti nel quale ci sarà da mettere le cosa che c'è scritto (ad esempio alla riga 142). 
+nel file main.py (in file necessari) ci sono delle parti nelle quali occorrerà mettere le cose che ci sono scritte scritto (ad esempio alla riga 142). 
 senza quelle modifiche il codice non funzionerà.
 
 grazie per aver scelto il mio codice!
