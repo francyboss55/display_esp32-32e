@@ -4,3 +4,10 @@ nel file main.py (in file necessari) ci sono delle parti nelle quali occorrerà 
 senza quelle modifiche il codice non funzionerà.
 
 grazie per aver scelto il mio codice!
+
+---INFORMATION---
+To ensure the code works, you must upload all the files from the "driver" and "file necessari" (necessary files) folders to the board (an ESP32-32E display module with 320x240 pixel resolution).
+The `main.py` file (located in "file necessari") contains sections where you need to insert the specific information indicated (for example, at line 142).
+The code will not work without these modifications.
+
+Thank you for choosing my code!
