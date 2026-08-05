@@ -69,14 +69,8 @@ def disegna_tutto():
         [BLU_RL, None, None, None, BLU_RL,  None, None, BIANCO, BIANCO, None,  ROSSO, None, None]
     ]
 
-    # Matrice esatta 5 righe x 35 colonne per la scritta "AMIOISPRO"
-    MATRICE_AMIOISPRO = [
-        [None,BIANCO,BIANCO,BIANCO,None, BIANCO,None,None,None,BIANCO,None, BIANCO,None, BIANCO,BIANCO,BIANCO,None, BIANCO,None,  BIANCO,BIANCO,BIANCO,None, BIANCO,BIANCO,BIANCO,None, BIANCO,BIANCO,BIANCO,None, BIANCO,BIANCO,BIANCO,None],
-        [None,BIANCO,None,BIANCO,None, BIANCO,BIANCO,None,BIANCO,BIANCO,None, BIANCO,None, BIANCO,None,BIANCO,None, BIANCO,None,  BIANCO,None,None,None, BIANCO,None,BIANCO,None, BIANCO,None,BIANCO,None, BIANCO,None,BIANCO,None],
-        [None,BIANCO,BIANCO,BIANCO,None, BIANCO,None,BIANCO,None,BIANCO,None, BIANCO,None, BIANCO,None,BIANCO,None, BIANCO,None,  BIANCO,BIANCO,BIANCO,None, BIANCO,BIANCO,BIANCO,None, BIANCO,BIANCO,BIANCO,None, BIANCO,None,BIANCO,None],
-        [None,BIANCO,None,BIANCO,None, BIANCO,None,None,None,BIANCO,None, BIANCO,None, BIANCO,None,BIANCO,None, BIANCO,None, None,None,BIANCO,None, BIANCO,None,None,None, BIANCO,BIANCO,None,None, BIANCO,None,BIANCO,None],
-        [None,BIANCO,None,BIANCO,None, BIANCO,None,None,None,BIANCO,None, BIANCO,None, BIANCO,BIANCO,BIANCO,None, BIANCO,None, BIANCO,BIANCO,BIANCO,None, BIANCO,None,None,None, BIANCO,None,BIANCO,None, BIANCO,BIANCO,BIANCO,None]
-    ]
+    # Matrice esatta 5 righe x 35 colonne per la scritta "nome / name"
+    MATRICE_AMIOISPRO = [qui inserire una matrice 5 righe x 35 colonne che verrà visualizzata sotto m&F / Insert here a 5-row by 35-column matrix that will be displayed below m&F]
 
     # Pulisce lo schermo con lo sfondo BLU
     if hasattr(display, 'clear'): display.clear(BLU)
@@ -103,24 +97,24 @@ def disegna_tutto():
     # 3. DISEGNA I PULSANTI 
     # --- RIGA 1 ---
     display.fill_rectangle(20, 65, 90, 30, ROSSO)
-    display.draw_text8x8(25, 76, "---INSERIRE QUI IL NOME DELLA APP---", BIANCO)  
+    display.draw_text8x8(25, 76, "---INSERIRE QUI IL NOME DELLA APP--- / ---INSERT APP NAME HERE---", BIANCO)  
     
     display.fill_rectangle(130, 65, 90, 30, ROSSO)
-    display.draw_text8x8(135, 76, "---INSERIRE QUI IL NOME DELLA APP---", BIANCO)
+    display.draw_text8x8(135, 76, "---INSERIRE QUI IL NOME DELLA APP--- / ---INSERT APP NAME HERE---", BIANCO)
     
     # --- RIGA 2 ---
     display.fill_rectangle(20, 105, 90, 30, ROSSO)
-    display.draw_text8x8(25, 116, "---INSERIRE QUI IL NOME DELLA APP---", BIANCO)
+    display.draw_text8x8(25, 116, "---INSERIRE QUI IL NOME DELLA APP--- / ---INSERT APP NAME HERE---", BIANCO)
     
     display.fill_rectangle(130, 105, 90, 30, ROSSO)
-    display.draw_text8x8(135, 116, "---INSERIRE QUI IL NOME DELLA APP---", BIANCO)
+    display.draw_text8x8(135, 116, "---INSERIRE QUI IL NOME DELLA APP--- / ---INSERT APP NAME HERE---", BIANCO)
 
     # --- RIGA 3 ---
     display.fill_rectangle(20, 145, 90, 30, ROSSO)
-    display.draw_text8x8(25, 156, "---INSERIRE QUI IL NOME DELLA APP---", BIANCO)
+    display.draw_text8x8(25, 156, "---INSERIRE QUI IL NOME DELLA APP--- / ---INSERT APP NAME HERE---", BIANCO)
     
     display.fill_rectangle(130, 145, 90, 30, ROSSO)
-    display.draw_text8x8(135, 156, "---INSERIRE QUI IL NOME DELLA APP---", BIANCO)
+    display.draw_text8x8(135, 156, "---INSERIRE QUI IL NOME DELLA APP--- / ---INSERT APP NAME HERE---", BIANCO)
     
     # Ridisegna l'area di testo dinamica aggiornata
     aggiorna_testo_dinamico()
@@ -139,41 +133,41 @@ while True:
             
             if 20 <= x <= 110:
                 if 65 <= y <= 95:
-                    frase_corrente = "QUI INSERIRE LA FRASE DA VISUALIZZARE QUANDO LA APP VIENE APERTA"
+                    frase_corrente = "QUI INSERIRE LA FRASE DA VISUALIZZARE QUANDO LA APP VIENE APERTA / INSERT HERE THE PHRASE TO BE DISPLAYED WHEN THE APP IS OPENED"
                     aggiorna_testo_dinamico()
                     time.sleep(1.5)
-                    import QUI_METTERE_IL_NOME_DEL_FILE_DELLA_APP_SENZA_.py
+                    import QUI_METTERE_IL_NOME_DEL_FILE_DELLA_APP_SENZA_.py / INSERT_APP_FILENAME_HERE_WITHOUT_.py
                 
                 elif 105 <= y <= 135:
-                    frase_corrente = "QUI INSERIRE LA FRASE DA VISUALIZZARE QUANDO LA APP VIENE APERTA"
+                    frase_corrente = "QUI INSERIRE LA FRASE DA VISUALIZZARE QUANDO LA APP VIENE APERTA / INSERT HERE THE PHRASE TO BE DISPLAYED WHEN THE APP IS OPENED"
                     aggiorna_testo_dinamico()
                     time.sleep(1.5)
-                    import QUI_METTERE_IL_NOME_DEL_FILE_DELLA_APP_SENZA_.py
+                    import QUI_METTERE_IL_NOME_DEL_FILE_DELLA_APP_SENZA_.py / INSERT_APP_FILENAME_HERE_WITHOUT_.py
                     
                 elif 145 <= y <= 175:
-                    frase_corrente = "QUI INSERIRE LA FRASE DA VISUALIZZARE QUANDO LA APP VIENE APERTA"
+                    frase_corrente = "QUI INSERIRE LA FRASE DA VISUALIZZARE QUANDO LA APP VIENE APERTA / INSERT HERE THE PHRASE TO BE DISPLAYED WHEN THE APP IS OPENED"
                     aggiorna_testo_dinamico()
                     time.sleep(1.5)
-                    import QUI_METTERE_IL_NOME_DEL_FILE_DELLA_APP_SENZA_.py
+                    import QUI_METTERE_IL_NOME_DEL_FILE_DELLA_APP_SENZA_.py / INSERT_APP_FILENAME_HERE_WITHOUT_.py
 
             elif 130 <= x <= 220:
                 if 65 <= y <= 95:
-                    frase_corrente = "QUI INSERIRE LA FRASE DA VISUALIZZARE QUANDO LA APP VIENE APERTA"
+                    frase_corrente = "QUI INSERIRE LA FRASE DA VISUALIZZARE QUANDO LA APP VIENE APERTA / INSERT HERE THE PHRASE TO BE DISPLAYED WHEN THE APP IS OPENED"
                     aggiorna_testo_dinamico()
                     time.sleep(1.5)
-                    import QUI_METTERE_IL_NOME_DEL_FILE_DELLA_APP_SENZA_.py
+                    import QUI_METTERE_IL_NOME_DEL_FILE_DELLA_APP_SENZA_.py / INSERT_APP_FILENAME_HERE_WITHOUT_.py
                 
                 elif 105 <= y <= 135:
-                    frase_corrente = "QUI INSERIRE LA FRASE DA VISUALIZZARE QUANDO LA APP VIENE APERTA"
+                    frase_corrente = "QUI INSERIRE LA FRASE DA VISUALIZZARE QUANDO LA APP VIENE APERTA / INSERT HERE THE PHRASE TO BE DISPLAYED WHEN THE APP IS OPENED"
                     aggiorna_testo_dinamico()
                     time.sleep(1.5)
-                    import QUI_METTERE_IL_NOME_DEL_FILE_DELLA_APP_SENZA_.py
+                    import QUI_METTERE_IL_NOME_DEL_FILE_DELLA_APP_SENZA_.py / INSERT_APP_FILENAME_HERE_WITHOUT_.py
                 
                 elif 145 <= y <= 175:
-                    frase_corrente = "QUI INSERIRE LA FRASE DA VISUALIZZARE QUANDO LA APP VIENE APERTA"
+                    frase_corrente = "QUI INSERIRE LA FRASE DA VISUALIZZARE QUANDO LA APP VIENE APERTA / INSERT HERE THE PHRASE TO BE DISPLAYED WHEN THE APP IS OPENED"
                     aggiorna_testo_dinamico()
                     time.sleep(1.5)
-					import QUI_METTERE_IL_NOME_DEL_FILE_DELLA_APP_SENZA_.py
+					import QUI_METTERE_IL_NOME_DEL_FILE_DELLA_APP_SENZA_.py / INSERT_APP_FILENAME_HERE_WITHOUT_.py
                 
             ultimo_tocco = tempo_attuale
             while leggi_touch() is not None:
